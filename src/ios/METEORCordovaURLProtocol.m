@@ -12,6 +12,10 @@ NSDictionary *MimeTypeMappings = nil;
 
 @end
 
+@interface METEORCordovaURLProtocol() <NSURLSessionDelegate>
+
+@end
+
 @implementation METEORCordovaURLProtocol
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request
